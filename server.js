@@ -52,7 +52,7 @@ connectdb().then(() => {
 
 
 // API Routes
-//app.use('/api/products', propertyrouter);
+app.use('/api/products', propertyrouter);
 app.use('/api/users', userrouter);
 app.use('/api/forms', formrouter);
 app.use('/api/news', newsrouter);
