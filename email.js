@@ -3,7 +3,7 @@ export const getSchedulingEmailTemplate = (appointment, date, time, notes) => `
     <!-- Header with Background -->
     <div style="background: linear-gradient(135deg, #2563eb, #1e40af); padding: 40px 20px; border-radius: 15px 15px 0 0; text-align: center;">
       <h1 style="color: #ffffff; margin: 0; font-size: 28px; font-weight: 700;">Viewing Scheduled</h1>
-      <p style="color: #ffffff; opacity: 0.9; margin: 10px 0 0 0; font-size: 16px;">BuildEstate Property Viewing</p>
+      <p style="color: #ffffff; opacity: 0.9; margin: 10px 0 0 0; font-size: 16px;">urban nestProperty Viewing</p>
     </div>
 
     <!-- Main Content -->
@@ -79,7 +79,7 @@ export const getEmailTemplate = (appointment, status) => `
     <!-- Header with Background -->
     <div style="background: linear-gradient(135deg, #2563eb, #1e40af); padding: 40px 20px; border-radius: 15px 15px 0 0; text-align: center;">
       <h1 style="color: #ffffff; margin: 0; font-size: 28px; font-weight: 700;">Appointment ${status.charAt(0).toUpperCase() + status.slice(1)}</h1>
-      <p style="color: #ffffff; opacity: 0.9; margin: 10px 0 0 0; font-size: 16px;">BuildEstate Property Viewing</p>
+      <p style="color: #ffffff; opacity: 0.9; margin: 10px 0 0 0; font-size: 16px;">urban nestProperty Viewing</p>
     </div>
 
     <!-- Main Content -->
@@ -343,7 +343,7 @@ export const getPasswordResetTemplate = (resetUrl) => `
     <!-- Header with Background -->
     <div style="background: linear-gradient(135deg, #2563eb, #1e40af); padding: 40px 20px; border-radius: 15px 15px 0 0; text-align: center;">
       <h1 style="color: #ffffff; margin: 0; font-size: 28px; font-weight: 700;">Reset Your Password</h1>
-      <p style="color: #ffffff; opacity: 0.9; margin: 10px 0 0 0; font-size: 16px;">BuildEstate Account Security</p>
+      <p style="color: #ffffff; opacity: 0.9; margin: 10px 0 0 0; font-size: 16px;">urban nestAccount Security</p>
     </div>
 
     <!-- Main Content -->
@@ -352,7 +352,7 @@ export const getPasswordResetTemplate = (resetUrl) => `
       <div style="background: #f0f7ff; border-left: 4px solid #2563eb; padding: 20px; border-radius: 8px; margin-bottom: 30px;">
         <h2 style="color: #1e40af; margin: 0 0 15px 0; font-size: 20px;">Password Reset Request</h2>
         <p style="margin: 8px 0; color: #374151;">
-          We received a request to reset your password for your BuildEstate account. For your security, this link will expire in 10 minutes.
+          We received a request to reset your password for your urban nestaccount. For your security, this link will expire in 10 minutes.
         </p>
       </div>
 

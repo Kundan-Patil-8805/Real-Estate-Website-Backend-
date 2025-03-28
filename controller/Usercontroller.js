@@ -76,7 +76,7 @@ const register = async (req, res) => {
       const mailOptions = {
         from: process.env.EMAIL,
         to: email,
-        subject: "Welcome to BuildEstate - Your Account Has Been Created",
+        subject: "Welcome to urban nest- Your Account Has Been Created",
         html: getWelcomeTemplate(name),
       };
 
@@ -112,7 +112,7 @@ const forgotpassword = async (req, res) => {
     const mailOptions = {
       from: process.env.EMAIL,
       to: email,
-      subject: "Password Reset - BuildEstate Security",
+      subject: "Password Reset - urban nestSecurity",
       html: getPasswordResetTemplate(resetUrl)
     };
 
