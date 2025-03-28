@@ -6,7 +6,7 @@ import helmet from 'helmet';
 import compression from 'compression';
 import connectdb from './config/mongodb.js';
 import { trackAPIStats } from './middleware/statsMiddleware.js';
-//import propertyrouter from './routes/ProductRouter.js';
+import propertyrouter from './routes/ProductRouter.js';
 import userrouter from './routes/UserRoute.js';
 import formrouter from './routes/formrouter.js';
 import newsrouter from './routes/newsRoute.js';
