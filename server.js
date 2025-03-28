@@ -41,7 +41,9 @@ app.use(trackAPIStats);
 
 
 // CORS Configuration
-app.use(cors());
+app.use(cors({ origin: '*' }));
+
+
 
 // Database connection
 connectdb().then(() => {
